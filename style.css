@@ -48,7 +48,7 @@ table, th, td {
 }
 
 #table-fixed {
-  table-layout: fixed;
+  table-layout:auto;
 }
 
 #container{
