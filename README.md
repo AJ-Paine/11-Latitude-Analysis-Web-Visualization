@@ -1,4 +1,4 @@
-This project's website is published at https://aj-paine.github.io/Web-Design-Challenge/.
+This project's website is published here: https://aj-paine.github.io/Web-Design-Challenge/
 
 # Web-Design-Challenge
 This repository was created for DU Data Analytics Bootcamp homework on creating a html website.
