@@ -63,4 +63,22 @@ table, th, td {
   .navbar {
     background-color:goldenrod;
   }
+  .bg-dark {
+    background-color:goldenrod;
+  }
+  .navbar-dark {
+    background-color:goldenrod;
+  }
+  .navbar-expand-lg {
+    background-color:goldenrod;
+  }
+  .navbar-brand {
+    background-color:goldenrod;  
+  }
+  .navbar-toggler {
+    background-color:goldenrod;  
+  }
+  .dropdown-item{
+    background-color:goldenrod;  
+  }        
 }
