@@ -22,45 +22,77 @@
             Plots
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="Web_pages/cloudiness.html">Cloudiness</a>
-            <a class="dropdown-item" href="Web_pages/humidity.html">Humidity</a>
-            <a class="dropdown-item" href="Web_pages/temperature.html">Max Temperature</a>
-            <a class="dropdown-item" href="Web_pages/windspeed.html">Wind Speed</a>
+            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+            <a class="dropdown-item" href="humidity.html">Humidity</a>
+            <a class="dropdown-item" href="temperature.html">Max Temperature</a>
+            <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="Web_pages/comparison.html">Comparison<span class="sr-only">(current)</span></a>
+          <a class="nav-link active" href="comparison.html">Comparison<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Web_pages/data.html">Data</a>
+          <a class="nav-link" href="data.html">Data</a>
         </li>
     </div>
   </nav>
 
-  <!-- Header -->
-    <article>
-        <h1>Comparison: Latitude vs. X</h1>
-    </article>
-
-<!-- Image -->
-    <hr>
-    <article>
-        <h2>vs. Cloudiness</h2>
-        <a target="_blank" href="../visualizations/Lat_vs_Cloudiness.png">
+ <div class="container-fluid">
+   <div class="row">
+     <div class = "col-md-12">
+        <!-- Header -->
+        <article>
+          <h2>Comparison: Latitude vs. X</h2>
+          <hr>
+        </article>
+      </div>
+    </div>
+    <!-- Images -->
+    <div class="row">
+      <div class = "col-sm-12 col-md-6">
+        <article class="main-vis-img">
+          <h5>vs. Cloudiness</h5>
+          <a href="cloudiness.html">
             <img src="../visualizations/Lat_vs_Cloudiness.png" alt="Cloudiness">
-        </a>
-    </article>
-    <hr>
+          </a>
+          <hr>
+        </article>  
+      </div>
+      <div class = "col-sm-12 col-md-6">
+        <article class="main-vis-img">
+          <h5>vs. Humidity</h5>
+          <a href="humidity.html">
+            <img src="../visualizations/Lat_vs_Humidity.png" title="Humidity">
+          </a>
+          <hr>
+        </article>  
+      </div>
+    </div>    
+    <div class="row">
+      <div class = "col-sm-12 col-md-6">
+        <article class="main-vis-img">
+          <h5>vs. Max Temperature</h5>
+          <a href="temperature.html">
+            <img src="../visualizations/Lat_vs_MaxTemp.png" alt="Cloudiness">
+          </a>
+          <hr>
+        </article>  
+      </div>
+      <div class = "col-sm-12 col-md-6">
+        <article class="main-vis-img">
+          <h5>vs. Wind Speed</h5>
+          <a href="windspeed.html">
+            <img src="../visualizations/Lat_vs_Wind Speed.png" title="Humidity">
+          </a>
+          <hr>
+        </article>  
+      </div>
+    </div>    
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
-
-<p>
-  The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analy <br>
-  After assembling the dataset, I used the pandas and matplotlib libraries in Python to evaluate and plot several different weather metrics and how they change in respect to latitude. The metrics evaluated in this project were temperature (F), cloudiness (%), wind speed (mph), and humidity (%).
-</p>
 
 </html>
