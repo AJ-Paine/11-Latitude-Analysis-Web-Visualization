@@ -59,7 +59,7 @@ table, th, td {
   position: relative;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 991px){
   .navbar {
     background-color:goldenrod;
   }
