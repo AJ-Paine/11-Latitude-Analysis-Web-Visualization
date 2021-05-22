@@ -43,12 +43,6 @@ article {
   width: 500px;
 }
 
-@media only screen and (max-width: 768px) {
-  .navbar {
-    background-color:red;
-  }
-}
-
 table, th, td {
   border: 1px solid black;
 }
@@ -58,9 +52,15 @@ table, th, td {
 }
 
 #container{
-  width: 1024;
+  width: 1024px
 }
 
 #figure {
   position: relative;
+}
+
+@media screen and (max-width: 600px){
+  .navbar {
+    background-color:goldenrod;
+  }
 }
